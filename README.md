@@ -60,3 +60,55 @@ The solution is designed to be **transparent, interpretable, and policy-ready**.
 
 ### 4. Severity Ranking
 A severity score was calculated to prioritize districts:
+
+5. State‑Level Aggregation
+Aggregated district anomalies per state
+
+Identified states with higher proportions of anomalous districts
+
+6. Pincode‑Level Drill‑Down
+For the most anomalous district, analysis was performed at pincode level
+
+Localized the exact pincodes driving the anomaly
+
+Key Results
+~1000 districts analyzed
+
+29 districts flagged with significant demographic anomalies
+
+Extreme outliers observed (z‑score > 10)
+
+State‑level patterns revealed systemic regional risks
+
+Pincode drill‑down enabled actionable, on‑ground insights
+
+Visual Analysis
+Demographic ratio distributions
+
+Demographic vs enrolment anomaly scatter plots
+
+Top anomalous districts and states
+
+Pincode‑level anomaly charts (case study)
+
+Tech Stack
+Python
+
+Pandas, NumPy
+
+SciPy
+
+Matplotlib, Seaborn
+
+Jupyter Notebook
+
+Relevance to UIDAI
+This solution helps UIDAI:
+
+Prioritize audits efficiently
+
+Detect demographic irregularities early
+
+Focus investigations at district and pincode level
+
+Improve data quality and governance
