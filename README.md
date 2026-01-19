@@ -61,54 +61,50 @@ The solution is designed to be **transparent, interpretable, and policy-ready**.
 ### 4. Severity Ranking
 A severity score was calculated to prioritize districts:
 
-5. State‑Level Aggregation
-Aggregated district anomalies per state
+### 5. State-Level Aggregation
+- Aggregated district-level anomalies at the state level  
+- Identified states with a higher proportion of anomalous districts  
+- Revealed systemic regional risk patterns  
 
-Identified states with higher proportions of anomalous districts
+---
 
-6. Pincode‑Level Drill‑Down
-For the most anomalous district, analysis was performed at pincode level
+### 6. Pincode-Level Drill-Down
+- Performed pincode-level analysis for the most anomalous districts  
+- Localized the exact pincodes contributing to the anomalies  
+- Enabled precise and actionable, ground-level insights  
 
-Localized the exact pincodes driving the anomaly
+---
 
-Key Results
-~1000 districts analyzed
+## Key Results
+- Approximately 1000 districts analyzed  
+- 29 districts flagged with significant demographic anomalies  
+- Extreme outliers observed with Z-scores greater than 10  
+- State-level analysis revealed systemic regional risks  
+- Pincode-level drill-down enabled targeted and actionable insights  
 
-29 districts flagged with significant demographic anomalies
+---
 
-Extreme outliers observed (z‑score > 10)
+## Visual Analysis
+- Demographic ratio distribution plots  
+- Demographic vs enrolment anomaly scatter plots  
+- Visualizations of top anomalous districts and states  
+- Pincode-level anomaly charts (case study)  
 
-State‑level patterns revealed systemic regional risks
+---
 
-Pincode drill‑down enabled actionable, on‑ground insights
+## Tech Stack
+- Python  
+- Pandas, NumPy  
+- SciPy  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
-Visual Analysis
-Demographic ratio distributions
+---
 
-Demographic vs enrolment anomaly scatter plots
+## Relevance to UIDAI
+This solution helps UIDAI to:
+- Prioritize audits efficiently  
+- Detect demographic irregularities at an early stage  
+- Focus investigations at district and pincode levels  
+- Improve overall data quality and governance  
 
-Top anomalous districts and states
-
-Pincode‑level anomaly charts (case study)
-
-Tech Stack
-Python
-
-Pandas, NumPy
-
-SciPy
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
-Relevance to UIDAI
-This solution helps UIDAI:
-
-Prioritize audits efficiently
-
-Detect demographic irregularities early
-
-Focus investigations at district and pincode level
-
-Improve data quality and governance
